@@ -2,7 +2,7 @@ package models
 
 case class Task(id: Long, label: String)
 
-object task {
+object Task {
 
   def all(): List[Task] = Nil
 
