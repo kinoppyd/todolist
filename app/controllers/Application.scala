@@ -9,4 +9,10 @@ object Application extends Controller {
     Ok("Hello world")
   }
 
+  def tasks = TODO
+
+  def newTask = TODO
+
+  def deleteTask(id: Long) = TODO
+
 }
